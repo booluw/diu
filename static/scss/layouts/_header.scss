@@ -30,6 +30,15 @@
       padding: 0;
       margin: 0;
       background-color: transparent;
+      transition: transform 300ms ease-in-out;
+
+      &:hover {
+        border: none;
+        transform: scale(1.1);
+        transform-origin: center;
+        transform-style: flat;
+        background-color: transparent;
+      }
     }
   }
 }
