@@ -1,0 +1,45 @@
+.header {
+  padding: 1rem 0;
+  text-align: center;
+
+  &__logo {
+    width: 10rem;
+  }
+
+  &__nav {
+    margin: 1rem 0 0;
+  }
+
+  &__link {
+    display: inline-block;
+    color: $color-base;
+    background-color: transparent;
+    border: .1rem solid $color-base;
+    padding: 1rem 1.2rem;
+    margin-inline-start: 2rem;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: $color-base;
+      color: white;
+    }
+
+    &--logo {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      margin: 0;
+      background-color: transparent;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 2rem 0;
+
+    &__nav {
+      margin: 2rem 0 0;
+    }
+  }
+}
