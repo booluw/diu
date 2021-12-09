@@ -19,14 +19,16 @@
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, obcaecati. Enim magni molestias ad aut doloremque aperiam ea necessitatibus sit quasi vel maxime dolor officia unde odit, reiciendis quo eveniet! Veritatis perferendis dolorum est eum porro quae illo expedita, natus sint sed totam hic, reiciendis unde! Adipisci voluptates architecto exercitationem doloribus excepturi. Dolorem aliquid pariatur consequatur mollitia architecto, ipsam deserunt, quam, vitae delectus reprehenderit facilis optio a fugit facere velit beatae. Architecto necessitatibus, similique nemo dolor officia accusantium doloremque libero nostrum voluptatem amet laudantium illum rerum quod quis animi id tenetur aliquam numquam possimus beatae fugit quae a enim natus? Consequatur mollitia sint voluptas voluptates eos eligendi aspernatur itaque velit totam nisi. Fuga, consequatur incidunt? Quas labore soluta aperiam quam cum aut eos quidem itaque, quaerat ratione est officia quis!
       </p>
     </section>
+    <app-footer />
   </section>
 </template>
 
 <script>
 import AppHeader from '~/components/AppHeader.vue'
 import AppHero from '~/components/AppHero.vue'
+import AppFooter from '~/components/AppFooter.vue'
 
 export default {
-  components: { AppHeader, AppHero },
+  components: { AppHeader, AppHero,AppFooter },
 }
 </script>

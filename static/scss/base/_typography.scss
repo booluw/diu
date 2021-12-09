@@ -22,7 +22,8 @@
     position: absolute;
     right: 0;
     left: 0;
-    color: darken(grey, 5);
+    color: white;
+    text-shadow: 0 0 2px $color-base;
   }
 
   &--sub {

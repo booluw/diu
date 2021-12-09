@@ -3,7 +3,7 @@
 
   &--bg {
     &-milk {
-      background-color: bisque;
+      background-color: $color-butter;
     }
   }
 
@@ -14,6 +14,6 @@
 
 @media screen and (min-width: 1200px) {
   .section {
-    padding: 7.5rem 5rem;
+    padding: 7.5rem 10rem;
   }
 }
